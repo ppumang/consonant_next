@@ -8,8 +8,8 @@ const Post = ({ post }) => {
                 <img src={'/images/default_profile.png'} width={40} height={40} style={{ borderRadius: 5, marginRight: 10 }} />
                 <span style={{ fontFamily: 'dongle-light', color: '#fff', fontSize: 30 }} >익명</span>
             </div>
-            {post.url && (
-                <img src={post.url} style={{ width: '100%', height: 'auto', borderRadius: 10, marginBottom: 10 }} />
+            {post.mediaUrl && (
+                <img src={post.mediaUrl} style={{ width: '100%', height: 'auto', borderRadius: 10, marginBottom: 10 }} />
             )}
             <div style={{ display: 'flex', justifyContent: 'space-between', fontFamily: 'dongle-light', fontSize: 30 }}>
                 <span style={{ color: '#fff' }} >{post.text}</span>
