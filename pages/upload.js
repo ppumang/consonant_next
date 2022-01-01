@@ -11,7 +11,7 @@ const Upload = (props) => {
         mediaUrl: ''
     })
     const handleTextChange = (e) => {
-        if (!/[^ㄱ-ㅎ\s]/gi.test(e.target.value)) {
+        if (!/[^ㄱ-ㅎ1-9\s~!@#$%^&*()_+=-]/gi.test(e.target.value)) {
             console.log(e.target.value)
             setValues({ ...values, text: e.target.value })
         }
