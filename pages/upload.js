@@ -17,7 +17,7 @@ const upload = (props) => {
         }
     }
     const handleUploadPost = async () => {
-        if (!values.text?.length) return;
+        if (!values.text?.length) return alert("초성텍스트를 입력하세요");
         try {
             if (values.mediaUrl) {
                 let formData = new FormData();

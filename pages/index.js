@@ -1,8 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
-import Logo from '../components/Logo';
 import PostList from '../components/PostList';
 import Header from '../components/Header';
 import UploadButton from '../components/UploadButton';
