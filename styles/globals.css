@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 30;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "dongle-light";
+  font-weight: 200;
+  src: url("/fonts/Dongle-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "dongle-regular";
+  font-weight: 200;
+  src: url("/fonts/Dongle-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "dongle-bold";
+  font-weight: 200;
+  src: url("/fonts/Dongle-Bold.ttf") format("truetype");
+}
