@@ -38,7 +38,7 @@ const NewComment = (props) => {
                     resize: "none",
                     padding: 10
                 }}
-                placeholder="ㅊㅅㅁ ㅇㄹ ㄱㄴㅎㄴㄷ"
+                placeholder="초성 맞추기"
                 rows={1}
                 value={comment}
             >
