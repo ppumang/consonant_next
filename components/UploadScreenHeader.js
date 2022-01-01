@@ -7,12 +7,12 @@ const UploadScreenHeader = (props) => {
             <span
                 style={{ fontFamily: 'dongle-light', fontSize: 30, color: '#ccc', cursor: 'pointer', width: 100, textAlign: 'left' }}
                 onClick={() => Router.back()}
-            >뒤로</span>
+            >ㄷㄹ</span>
             <Logo />
             <span
                 style={{ fontFamily: 'dongle-light', fontSize: 30, color: 'dodgerblue', cursor: 'pointer', width: 100, textAlign: 'right' }}
                 onClick={props.handleUploadPost}
-            >업로드</span>
+            >ㅇㄹㄷ</span>
         </div>
     )
 }
