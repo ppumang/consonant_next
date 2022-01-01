@@ -63,7 +63,7 @@ const Upload = (props) => {
                         resize: "none",
                         padding: 10
                     }}
-                    placeholder="초성만 입력 가능합니다"
+                    placeholder="ㅊㅅㅁ ㅇㄹ ㄱㄴㅎㄴㄷ"
                     rows={5}
                     value={values.text}
                 >
