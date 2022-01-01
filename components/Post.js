@@ -1,7 +1,10 @@
 import moment from "moment"
 import { timeDiff } from "../lib/utils";
+import CommentList from "./CommentList";
+import NewComment from "./NewComment";
 
 const Post = ({ post }) => {
+    console.log({ post })
     return (
         <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 800, padding: 10, backgroundColor: '#444', margin: 1, width: '100%' }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
@@ -15,6 +18,12 @@ const Post = ({ post }) => {
                 <span style={{ color: '#fff' }} >{post.text}</span>
                 <span style={{ color: '#aaa' }}>{timeDiff(post.created)}</span>
             </div>
+            {
+                post.comments?.length > 0 ? (
+                    <CommentList comments={post.comments} />
+                ) : <div />
+            }
+            < NewComment post_id={post._id} />
         </div>
     )
 }
