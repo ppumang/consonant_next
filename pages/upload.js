@@ -5,7 +5,7 @@ import axios from 'axios'
 import Router from "next/router";
 import { BACKEND_URI } from "../env";
 
-const upload = (props) => {
+const Upload = (props) => {
     const [values, setValues] = useState({
         text: '',
         mediaUrl: ''
@@ -85,4 +85,4 @@ const upload = (props) => {
     )
 }
 
-export default upload
+export default Upload
